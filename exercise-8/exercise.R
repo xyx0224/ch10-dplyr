@@ -1,11 +1,12 @@
 # Exercise 8: exploring data sets
 
 # Load the dplyr library
-
+library("dplyr")
 
 # Read in the data (from `data/pupulitzer-circulation-data.csv`). Remember to 
 # not treat strings as factors!
-
+data <- read.csv(file = "data/pupulitzer-circulation-data.csv", 
+                 stringsAsFactors = FALSE)
 
 # View in the data set. Start to understand what the data set contains
 
